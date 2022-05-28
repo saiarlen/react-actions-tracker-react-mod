@@ -1,5 +1,5 @@
 {
-  "name": "@arlen/react-actions-tracker",
+  "name": "@saiarlen/react-actions-tracker",
   "version": "1.0.2",
   "author": "joaovillas",
   "license": "MIT",
@@ -14,7 +14,8 @@
     "track"
   ],
   "scripts": {
-    "build": "npm run test && rollup -c",
+
+    "build": "rollup -c",
     "build:watch": "rollup -cw",
     "prepublishOnly": "npm run build"
   },

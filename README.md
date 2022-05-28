@@ -1,6 +1,6 @@
 # React Actions Tracker
 
-Imagine you want to track user events of your application, everything goes mess if you don't have a pattern to follow. 
+Imagine you want to track user events of your application, everything goes mess if you don't have a pattern to follow.(Added Support for React v17) 
 
 Now imagine you have to track, click, knows when a component render to make some A/B Test, what is the values, metadata and connect everything in the api you have to send. It's a bunch of work right? 
 
