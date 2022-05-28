@@ -1,5 +1,5 @@
 {
-  "name": "react-actions-tracker",
+  "name": "@arlen/react-actions-tracker",
   "version": "1.0.2",
   "author": "joaovillas",
   "license": "MIT",
@@ -16,10 +16,7 @@
   "scripts": {
     "build": "npm run test && rollup -c",
     "build:watch": "rollup -cw",
-    "prepublishOnly": "npm run build",
-    "test": "jest",
-    "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage"
+    "prepublishOnly": "npm run build"
   },
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -40,18 +37,12 @@
     "@rollup/plugin-commonjs": "^22.0.0",
     "@rollup/plugin-node-resolve": "^13.3.0",
     "@rollup/plugin-typescript": "^8.3.2",
-    "@testing-library/jest-dom": "^5.16.4",
-    "@testing-library/react": "^13.2.0",
-    "@types/jest": "^27.5.1",
-    "@types/react": "^18.0.9",
-    "jest": "^28.1.0",
-    "jest-environment-jsdom": "^28.1.0",
+    "@types/react": "^17.0.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "rollup": "^2.74.1",
     "rollup-plugin-dts": "^4.2.2",
     "rollup-plugin-peer-deps-external": "^2.2.4",
-    "ts-jest": "^28.0.3",
     "tslib": "^2.4.0",
     "typescript": "^4.7.2"
   },
@@ -62,5 +53,6 @@
   "homepage": "https://github.com/joaovillas/react-actions-tracker#readme",
   "bugs": {
     "url": "https://github.com/joaovillas/react-actions-tracker/issues"
-  }
+  },
+  "description": "Imagine you want to track user events of your application, everything goes mess if you don't have a pattern to follow."
 }
